@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Asimovian&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Story+Script&display=swap");
+
+/* .dm-sans-<text > {
+  
+} */
+
+/* INTRO */
+body {
+  background-color: #fea0ff;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("main backgroud.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+.intro {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro h2 {
+  margin-bottom: 20px;
+}
+
+.intro input {
+  width: 38vw;
+  height: 30px;
+  background-color: #ff009d13;
+  border: none;
+  border-radius: 12px;
+  padding-left: 12px;
+
+  color: black;
+  font-weight: 800;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-bottom: 12px;
+}
+
+input::placeholder {
+  color: black;
+  font-weight: 800;
+}
+
+.inputtt button {
+  height: 30px;
+  border-radius: 6px;
+  padding: 2px 2px;
+  background-color: #ff009d13;
+  color: rgba(11, 32, 128, 0.687);
+  font-weight: 800;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.intro img {
+  height: 40vh;
+}
+/* INTRO */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pehla {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasveer img {
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 20px;
+}
+
+#confess {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-bottom: 8px;
+  text-align: center;
+  font-weight: bolder;
+}
+.contbut {
+  margin-top: 22px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.082) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.109) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: fit-content;
+  width: fit-content;
+
+  border-radius: 10px;
+  padding: 4px;
+  text-align: center;
+}
+
+.tasveer button {
+  background-color: #ff009d5e;
+  height: 40px;
+  width: 80px;
+  color: azure;
+  margin-right: 10px;
+  margin-top: 6px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+.nahiBut {
+  margin-left: 90px;
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.082) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.109) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* second */
+
+#dusra {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#dusra img {
+  border-radius: 12px;
+}
+
+.really {
+  margin-top: 22px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.082) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.109) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: fit-content;
+  width: fit-content;
+
+  border-radius: 10px;
+  padding: 4px;
+  text-align: center;
+  margin-left: 4px;
+}
+
+.really button {
+  background-color: #ff009d5e;
+  /* height: 40px;
+  width: 80px; */
+  width: fit-content;
+  height: 40px;
+  color: azure;
+  margin-right: 10px;
+  margin-top: 6px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  padding: 4px 4px;
+}
+
+.noo {
+  margin-top: 10px;
+}
+
+/* Third */
+
+#teesra {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#teesra img {
+  border-radius: 12px;
+  height: 30vh;
+  width: 80%;
+  margin-top: 10px;
+}
+
+#teesra h1 {
+  margin-top: 12px;
+  font-weight: bolder;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.082) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.109) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: fit-content;
+  width: fit-content;
+  padding: 4px 4px;
+  border-radius: 6px;
+}
+
+#teesra button {
+  font-size: 1rem;
+  background-color: #ff009d5e;
+  font-weight: 400;
+  width: fit-content;
+  padding: 2px 2px;
+  margin-top: 25px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.082) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.109) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 12px;
+}
+
+#evil-button {
+  /* position: absolute; */
+  /* margin-left: 6px; */
+  z-index: 9999;
+}
+
+#bagal {
+  margin-right: 12px;
+}
+
+/* .buttonlast {
+  background-color: green; */
+
+/* last page */
+#aakhri {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#video_player {
+  width: 80vw;
+  height: 60vh;
+  border-radius: 12px;
+}
+
+.lastdiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+.lastdiv h3 {
+  font-weight: bolder;
+  color: rgb(195, 108, 108);
+  box-shadow: rgba(0, 0, 0, 0.076) 0px 54px 55px,
+    rgba(0, 0, 0, 0.058) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.068) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#loves {
+  margin-top: 8px;
+  font-weight: bolder;
+  color: rgb(195, 108, 108);
+}
